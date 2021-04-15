@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
+TARGET_USES_BLUR := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := ancient_dipper
 PRODUCT_DEVICE := dipper

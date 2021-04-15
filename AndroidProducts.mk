@@ -17,6 +17,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/ancient_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_dipper-user \
-    ancient_dipper-userdebug \
-    ancient_dipper-eng
+    ancient_dipper-userdebug
