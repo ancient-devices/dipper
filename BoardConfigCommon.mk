@@ -67,6 +67,9 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Enable stats logging in LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
